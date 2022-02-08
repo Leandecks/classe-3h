@@ -1,0 +1,139 @@
+// Variables import
+
+@import 'var'
+
+// Generic styles for header, nav
+
+header, #nav
+    display: flex
+    justify-content: center
+
+header
+    background-color: $blue
+
+#nav
+    background-color: $white
+
+// Logo and description
+
+#logo
+    background-color: $blue
+    color: $white
+    display: inline-block
+    border: 5px solid $white
+    font-size: 30px
+    width: 60px
+    height: 60px
+    text-align: center
+    line-height: 60px
+    margin-right: 3px
+    margin-bottom: 30px
+    margin-top: 30px
+
+img
+    height: 313.6px
+    width: 288.4px
+
+#terza-acca
+    background-color: $blue
+    color: $white
+    display: inline-block
+    border: 5px solid $white
+    font-size: 30px
+    width: 160px
+    height: 60px
+    text-align: center
+    line-height: 60px
+    margin-bottom: 30px
+    margin-top: 30px
+
+// Heading and navigation containers
+
+#h2-wrapper h2
+    text-align: center
+    margin-bottom: 1rem
+    color: $blue
+    font-family: 'Nunito', sans-serif
+
+.container
+    background-color: $white
+    color: $blue
+    display: inline-block
+    border: 5px solid $blue
+    font-size: 35px
+    text-align: center
+    line-height: 250px
+    height: 250px
+    width: 250px
+    margin-top: 30px
+    margin-bottom: 30px
+
+#c1, #c2
+    margin-right: 75px
+
+// Section 1: our class + comic image
+
+section#one
+    background-color: $pale
+
+section#one h2
+    text-align: center
+    color: $blue
+    padding-top: 30px
+    font-family: 'Architects Daughter', cursive
+    font-size: 45px
+
+section#one .sect1wrapimg
+    width: 640px
+    height: 314px
+    margin: 0 auto
+
+section#one .sect1wrapimg img
+    width: 640px
+    height: 314px
+
+section#one .sect1wraptxt
+    background-color: $pale
+    padding-left: 300px
+    padding-right: 300px
+    margin-top: 10px
+    padding-bottom: 30px
+    
+section#one .sect1wraptxt p
+    color: $blue
+    font-family: 'Architects Daughter', cursive
+    font-size: 25px
+    background-color: $pale
+    margin: 0
+    text-align: justify
+
+footer
+    background-color: $blue
+    color: $dark
+
+footer p
+    text-align: center
+    font-size: 20px
+    padding: 20px
+    margin: 0
+
+a
+    color: $dark
+    text-decoration: underline
+
+a:hover
+    color: $dark
+
+@media only screen and (max-width: 768px)
+    #nav
+        margin: 20px
+    .container
+        font-size: 20px
+        height: 150px
+        width: 150px
+    #c1, #c2, #c3
+        margin-top: 0
+        margin-bottom: 0
+        margin-left: 10px
+        margin-right: 10px
+        line-height: 150px
