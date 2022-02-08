@@ -1,0 +1,21 @@
+{
+  "name": "classe-3h",
+  "version": "1.0.0",
+  "description": "The 3H Website",
+  "main": "./js/script.js",
+  "scripts": {
+    "web": "start index.html"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "classe-3h",
+    "3h",
+    "leandecks",
+    "classe",
+    "Giulio Cesare"
+  ],
+  "author": "leandecks",
+  "license": "MIT"
+}
