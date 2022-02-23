@@ -4,12 +4,16 @@
 
 // Generic styles for header, nav
 
+html,
+body
+    font-family: 'Architects Daughter', cursive
+
 header, #nav
     display: flex
     justify-content: center
 
 header
-    background-color: $blue
+    background-color: $red
 
 #nav
     background-color: $white
@@ -17,10 +21,12 @@ header
 // Logo and description
 
 #logo
-    background-color: $blue
+    background-image: url("../../img/logo2.jpg")
+    background-size: cover
+    background-position: center
     color: $white
     display: inline-block
-    border: 5px solid $white
+    border: 5px solid $ciGreen
     font-size: 30px
     width: 60px
     height: 60px
@@ -30,15 +36,11 @@ header
     margin-bottom: 30px
     margin-top: 30px
 
-img
-    height: 313.6px
-    width: 288.4px
-
 #terza-acca
-    background-color: $blue
+    background-color: $red
     color: $white
     display: inline-block
-    border: 5px solid $white
+    border: 5px solid $ciGreen
     font-size: 30px
     width: 160px
     height: 60px
@@ -52,14 +54,14 @@ img
 #h2-wrapper h2
     text-align: center
     margin-bottom: 1rem
-    color: $blue
-    font-family: 'Nunito', sans-serif
+    color: $red
+    font-family: 'Architects Daughter', sans-serif
 
 .container
     background-color: $white
-    color: $blue
+    color: $red
     display: inline-block
-    border: 5px solid $blue
+    border: 5px solid $red
     font-size: 35px
     text-align: center
     line-height: 250px
@@ -67,6 +69,13 @@ img
     width: 250px
     margin-top: 30px
     margin-bottom: 30px
+    font-weight: bolder
+
+#c1
+    background-color: $ciGreen
+    background-image: url("./../../img/viaggi.jpg")
+    background-position: center
+    background-size: cover
 
 #c1, #c2
     margin-right: 75px
@@ -74,11 +83,12 @@ img
 // Section 1: our class + comic image
 
 section#one
-    background-color: $pale
+    background-color: $ciGreen
 
 section#one h2
     text-align: center
     color: $blue
+    background-color: $ciGreen
     padding-top: 30px
     font-family: 'Architects Daughter', cursive
     font-size: 45px
@@ -93,7 +103,7 @@ section#one .sect1wrapimg img
     height: 314px
 
 section#one .sect1wraptxt
-    background-color: $pale
+    background-color: $ciGreen
     padding-left: 300px
     padding-right: 300px
     margin-top: 10px
@@ -103,7 +113,7 @@ section#one .sect1wraptxt p
     color: $blue
     font-family: 'Architects Daughter', cursive
     font-size: 25px
-    background-color: $pale
+    background-color: $ciGreen
     margin: 0
     text-align: justify
 
@@ -116,6 +126,7 @@ footer p
     font-size: 20px
     padding: 20px
     margin: 0
+    font-weight: 900
 
 a
     color: $dark
