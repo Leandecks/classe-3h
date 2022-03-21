@@ -6,14 +6,14 @@
 
 html,
 body
-    font-family: 'Architects Daughter', cursive
+    font-family: 'Nunito', sans-serif
 
 header, #nav
     display: flex
     justify-content: center
 
 header
-    background-color: $red
+    background-color: $darkBlue
 
 #nav
     background-color: $white
@@ -21,9 +21,9 @@ header
 // Logo and description
 
 #logo
-    background-image: url("../../img/logo2.jpg")
-    background-size: cover
-    background-position: center
+    // background-image: url("../../img/logo2.jpg")
+    // background-size: cover
+    // background-position: center
     color: $white
     display: inline-block
     border: 5px solid $ciGreen
@@ -37,7 +37,6 @@ header
     margin-top: 30px
 
 #terza-acca
-    background-color: $red
     color: $white
     display: inline-block
     border: 5px solid $ciGreen
@@ -54,14 +53,13 @@ header
 #h2-wrapper h2
     text-align: center
     margin-bottom: 1rem
-    color: $red
-    font-family: 'Architects Daughter', sans-serif
+    color: $darkBlue
 
 .container
-    background-color: $white
-    color: $red
+    background-color: $ciGreen
+    color: $darkBlue
     display: inline-block
-    border: 5px solid $red
+    border: 5px solid $darkBlue
     font-size: 35px
     text-align: center
     line-height: 250px
@@ -71,11 +69,10 @@ header
     margin-bottom: 30px
     font-weight: bolder
 
-#c1
-    background-color: $ciGreen
-    background-image: url("./../../img/viaggi.jpg")
-    background-position: center
-    background-size: cover
+// #c1
+//     background-image: url("./../../img/viaggi.jpg")
+//     background-position: center
+//     background-size: cover
 
 #c1, #c2
     margin-right: 75px
@@ -87,10 +84,9 @@ section#one
 
 section#one h2
     text-align: center
-    color: $blue
+    color: $darkBlue
     background-color: $ciGreen
     padding-top: 30px
-    font-family: 'Architects Daughter', cursive
     font-size: 45px
 
 section#one .sect1wrapimg
@@ -110,27 +106,27 @@ section#one .sect1wraptxt
     padding-bottom: 30px
     
 section#one .sect1wraptxt p
-    color: $blue
-    font-family: 'Architects Daughter', cursive
-    font-size: 25px
+    color: $second
+    font-size: 23px
+    font-weight: 700
     background-color: $ciGreen
     margin: 0
     text-align: justify
 
 footer
-    background-color: $blue
-    color: $dark
+    background-color: $darkBlue
+    color: $white
 
 footer p
     text-align: center
     font-size: 20px
     padding: 20px
     margin: 0
-    font-weight: 900
 
 a
-    color: $dark
+    color: $white
     text-decoration: underline
+    transition: all 250ms ease
 
 a:hover
     color: $dark
