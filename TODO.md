@@ -1,2 +1,0 @@
-[ ] Responsive   
-[ ] Dark mode

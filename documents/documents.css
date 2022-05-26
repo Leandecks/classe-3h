@@ -5,10 +5,10 @@ body {
 }
 
 a {
-        color: blue;
-        text-decoration: underline;
+    color: blue;
+    text-decoration: underline;
 }
     
 a:hover {
-        color: blue;
+    color: blue;
 }
