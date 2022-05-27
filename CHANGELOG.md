@@ -9,3 +9,4 @@ v1.1.3 Fix .gitignore, update CHANGELOG
 v1.1.4 Update package.json, CHANGELOG   
 v1.2.0 Third release of the page: darkblue-green design   
 v1.3.0 Full-responsive page. Update README, documents.css, package.json, CHANGELOG, .gitignore. Update README, documents.css, package.json, CHANGELOG, .gitignore. WEBSITE RELEASED
+v1.3.1 Image changes
