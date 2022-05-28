@@ -1,10 +1,10 @@
 {
   "name": "classe-3h",
-  "version": "1.3.1",
+  "version": "1.3.2",
   "description": "The 3H Website",
   "main": "./js/script.js",
   "scripts": {
-    "web": "start index.html"
+    "start": "start index.html"
   },
   "repository": {
     "type": "git"
