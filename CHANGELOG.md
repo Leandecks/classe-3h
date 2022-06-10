@@ -11,3 +11,4 @@ v1.2.0 Third release of the page: darkblue-green design
 v1.3.0 Full-responsive page. Update README, documents.css, package.json, CHANGELOG, .gitignore. Update README, documents.css, package.json, CHANGELOG, .gitignore. WEBSITE RELEASED
 v1.3.1 Image changes
 v1.3.2 Deleted sass files from repo. New npm script name. Updated README.
+v1.3.3 Add video presentation of project
